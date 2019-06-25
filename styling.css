@@ -128,15 +128,19 @@ ul {
 	font-size: 30px;
 }
 
-#leftsidebar ul{
+.sidebar ul{
 	padding-top: 8px;
 }
 
 #leftsidebar ul li{
-	padding-bottom: 6px;
-	padding-left: 10px;
+	padding: 3px 0 3px 10px;
 	list-style-image: url(images/arrow.png);
 } 
+
+#rightsidebar ul li{
+	padding: 17px 0 17px 70px;
+	background: url(images/tick.png) no-repeat left center;
+}
 
 .sidebar ul li a{
 	text-decoration: none;
